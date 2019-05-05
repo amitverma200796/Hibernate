@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	<hibernate-mapping>
+	<class name="com.amit.entity.Product" table ="Product_tab">
+	<id name="pId" column="P_id" length="12">
+	  <!-- <generator class="increment">
+	 <param name="sequence">test_sequence</param>
+	 </generator>
+	 <generator class="hilo">
+	<param name="max_lo">10</param>
+	</generator>
+	</id>
+	
+	 --> 
+		<generator class="com.amit.id.ProductIdGenerator"/>
+	</id>
+	<property name="pName" column="P_name" length="12"/>
+	<property name="price" column="city"/>
+	</class>
+	</hibernate-mapping>
+	

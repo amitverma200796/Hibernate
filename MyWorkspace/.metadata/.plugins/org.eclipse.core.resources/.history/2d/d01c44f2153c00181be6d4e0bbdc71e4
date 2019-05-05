@@ -1,0 +1,18 @@
+package com.sathya.dao;
+
+
+
+import java.util.List;
+
+public interface EmpDao 
+
+{
+	List findEmpsByDeptNumber(int deptNumber);
+	int UploadEmpsByDeptNumber(int deptNumber);
+	
+	
+
+}
+
+
+

@@ -1,0 +1,45 @@
+package com.sathya.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+
+import com.sathya.entity.Item;
+
+public class Test {
+
+	public static void main(String[] args)
+	{
+    //step1 to load configure file
+		Configuration conf=new Configuration();
+		conf.configure("com/sathya/config/hibernate.cfg.xml");
+		//step2 create service directory
+		StandardServiceRegistryBuilder builder=new StandardServiceRegistryBuilder();
+		builder.applySettings(conf.getProperties());
+        ServiceRegistry registry=builder.build();
+	   //step3 create a session factory
+        SessionFactory factory=conf.buildSessionFactory(registry);
+        //create a session
+        Session session=factory.openSession();
+        Item item=new Item(100001,"SONY",8000);
+        //step 5 begin a transaction
+        Transaction tx=session.beginTransaction();
+        session.save(item);
+        tx.commit();
+        //step 6 close session
+        session.close();
+        //step 7 close factory
+        factory.close();
+        
+	
+	
+	}
+	
+	
+	
+	
+
+}

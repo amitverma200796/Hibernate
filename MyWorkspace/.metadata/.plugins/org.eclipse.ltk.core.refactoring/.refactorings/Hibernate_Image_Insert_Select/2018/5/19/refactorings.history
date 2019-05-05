@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;FilterApp/src&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate_Image_Insert_Select&apos;&#x0D;&#x0A;- Destination element: &apos;FilterApp/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Hibernate_Image_Insert_Select/src/com.sathya.config&#x0D;&#x0A;     Hibernate_Image_Insert_Select/src/com.sathya.util" description="Copy packages" destination="=FilterApp/src" element1="/src&lt;com.sathya.config" element2="/src&lt;com.sathya.util" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1525834957677" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Hibernate_IDgenerator_App/E:\/hibernate-release-4.3.11.Final\/lib\/required\/hibernate-core-4.3.11.Final.jar&lt;org.hibernate.id(IdentifierGenerator.class[IdentifierGenerator" modifiers="1537" timestamp="1438833288000"/>
+<typeInfo handle="=Hibernate_Table_Per_Class/src&lt;com.sathya.dao{PaymentDao.java[PaymentDao" modifiers="513" timestamp="1523989597452"/>
+<typeInfo handle="=Hibernate_OneToMany_App/src&lt;com.sathya.dao{CustDao.java[CustDao" modifiers="513" timestamp="1524675467513"/>
+<typeInfo handle="=Hibernate_ManyToOne/src&lt;com.sathya.dao{MTOdao.java[MTOdao" modifiers="513" timestamp="1525359896474"/>
+<typeInfo handle="=Hibernate_ManyToMany/src&lt;com.sathya.dao{MTODao.java[MTODao" modifiers="513" timestamp="1525102766981"/>
+<typeInfo handle="=Hibernate_ManyToMany/E:\/hibernate-release-4.3.11.Final\/lib\/required\/hibernate-core-4.3.11.Final.jar&lt;org.hibernate.metamodel.source.binder(ManyToManyPluralAttributeElementSource.class[ManyToManyPluralAttributeElementSource" modifiers="1537" timestamp="1438833288000"/>
+<typeInfo handle="=Hibernate_OneToOne_fk/src&lt;com.sathya.dao{OTODao.java[OTODao" modifiers="513" timestamp="1525104873706"/>
+<typeInfo handle="=Hibernate_FunctionCall/E:\/hibernate-release-4.3.11.Final\/lib\/required\/hibernate-core-4.3.11.Final.jar&lt;org.hibernate.jdbc(Work.class[Work" modifiers="1537" timestamp="1438833288000"/>
+<typeInfo handle="=Hibernate_Image_Insert_Select/src&lt;com.sathya.dao{ImageDao.java[ImageDao" modifiers="513" timestamp="1525498169470"/>
+</typeInfoHistroy>

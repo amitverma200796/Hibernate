@@ -1,0 +1,49 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+      "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+     <hibernate-configuration>
+     <session-factory>
+     
+      <!--   connection  settings  -->
+     <!--  
+     <property name="connection.driver_class">oracle.jdbc.OracleDriver</property>
+     <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+     <property name="connection.username">system</property>
+     <property name="connection.password">amit</property>
+     -->
+     <!--   jndi  settings -->
+        <property  name="jndi.class">weblogic.jndi.WLInitialContextFactory</property>
+         <property  name="jndi.url">t3://localhost:7001</property>
+         <property  name="connection.datasource">testjndi</property>
+        
+        <!-- Level-2 catch settings -->    
+     
+         <property   name="cache.use_second_level_cache">true</property>  
+         
+         <property   name="cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+         <property   name="net.sf.ehcache.configurationResourceName">com/sathya/config/ehcache.xml</property> 
+         
+         <!-- QueryCache settings -->
+         
+           <property   name="cache.use_query_cache">true</property>
+           <!-- Built-in Connection pool -->
+          
+          <!--   <property name="connection_pool_size">12</property> -->
+                      
+           <!-- Third party Connecton pool -->
+          
+           <!--  
+           <property name="c3p0.min_size">5</property>
+           <property name="c3p0.max_size">15</property>
+           -->
+         
+      <!--  hibernate settings  -->
+     <property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+     <property name="show_sql">true</property>
+     <property name="hbm2ddl.auto">update</property>
+     
+     <!--  mapping class -->
+     <mapping class="com.sathya.entity.Employee"/>
+     
+     </session-factory>
+     </hibernate-configuration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;Hibernate_OneToOne_fk/src&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate_OneToMany_Map&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate_OneToOne_fk/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Hibernate_OneToMany_Map/src/com.sathay.util&#x0D;&#x0A;     Hibernate_OneToMany_Map/src/com.sathya.config" description="Copy packages" destination="=Hibernate_OneToOne_fk/src" element1="/src&lt;com.sathay.util" element2="/src&lt;com.sathya.config" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1525103853351" version="1.0"/>
+</session>

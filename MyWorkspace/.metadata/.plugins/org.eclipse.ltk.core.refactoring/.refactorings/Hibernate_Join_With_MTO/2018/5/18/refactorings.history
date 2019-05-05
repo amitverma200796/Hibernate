@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;Hibernate_FunctionCall/src&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate_Join_With_MTO&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate_FunctionCall/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Hibernate_Join_With_MTO/src/com.sathya.config&#x0D;&#x0A;     Hibernate_Join_With_MTO/src/com.sathay.util" description="Copy packages" destination="=Hibernate_FunctionCall/src" element1="/src&lt;com.sathya.config" element2="/src&lt;com.sathay.util" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1525441335870" version="1.0"/>
+</session>

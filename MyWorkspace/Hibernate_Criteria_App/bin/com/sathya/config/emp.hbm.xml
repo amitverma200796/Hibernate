@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.sathya.entity.Employee" table="emp">
+<id name="empNumber" column="empno"/>
+<property name="empName" column="ename" length="12"/>
+<property name="empSal" column="sal"/>
+<property name="deptNumber" column="deptno"></property>
+</class>
+</hibernate-mapping>

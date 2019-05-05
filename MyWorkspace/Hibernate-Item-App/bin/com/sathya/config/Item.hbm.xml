@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.sathya.entity.Item" table="Item_tab">
+<id name="itemId" column="Item_id"/>
+<property name="itemName" column="Itam_name" length="12"/>
+<property name="price" column="price"/>
+</class>
+</hibernate-mapping>
